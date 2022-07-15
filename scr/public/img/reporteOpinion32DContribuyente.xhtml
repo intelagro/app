@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><link type="text/css" rel="stylesheet" href="/PTSC/RFC/COBReporteOpinionR32dLoginRFC/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/PTSC/RFC/COBReporteOpinionR32dLoginRFC/javax.faces.resource/primefaces.css.xhtml?ln=primefaces" /><script type="text/javascript">BMCRum = { startTime : new Date().getTime(),app:'68B6FFBF',fid:'0',sr:100,met:undefined,name:'/PTSC/RFC/COBReporteOpinionR32dLoginRFC/reporteOpinion32DContribuyente.xhtml',per:false,ref:undefined,sip:'10.56.111.134',ssd:4,sse:false,st:-1,uid:'291c_25719',tid:'1ca5d684-dd2a-45f9-a82d-54e9dcd17768',ts:1635956510290,pxyInf:{"beaconsRes":"/apm-proxy/rest/beacons","httpPort":"8304","host":"acost1.sat.gob.mx","httpsPort":"443"}};</script><script type="text/javascript" src="https://acost1.sat.gob.mx:443/static-resources/aeuem.min.js"></script><script type="text/javascript" src="/PTSC/RFC/COBReporteOpinionR32dLoginRFC/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces"></script><script type="text/javascript" src="/PTSC/RFC/COBReporteOpinionR32dLoginRFC/javax.faces.resource/primefaces.js.xhtml?ln=primefaces"></script>
+	<title>Reporte de Opinión 32-D</title>
+	<script type="text/javascript" language="javascript">
+		$(document).ready(
+				function() {
+					setTimeout(clickButton, 2000);
+					function clickButton() {
+						document.getElementById(
+								"ReporteOpinionForm:botonConsultar").click();
+					}
+				});
+	</script>
+	<!-- <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script> -->
+	<!-- <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet"> </link> --></head><body>
+	<div id="form" align="center">
+<form id="ReporteOpinionForm" name="ReporteOpinionForm" method="post" action="/PTSC/RFC/COBReporteOpinionR32dLoginRFC/reporteOpinion32DContribuyente.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="ReporteOpinionForm" value="ReporteOpinionForm" />
+<input type="hidden" name="ReporteOpinionForm:j_idt6_CSRFToken" value="0806040d0b0d0d0b040900070a0808060906030b" />
+			<input type="hidden" name="entrada" />
+			<!-- value="<%= WebUtils.getUsuarioFromSession(auxSession) %>" />-->
+			<input type="hidden" name="tipoReporte" value="32D" />
+			<input type="hidden" name="canalOpinion" value="C" />
+			<input type="hidden" name="existenDatos" value="false" />
+			<input type="hidden" name="isrfc" value="true" />
+			<table>
+<!-- 				<tr> -->
+<!-- 					<td> -->
+<!-- 						<p:dialog header="Procesando" visible="true" width="250" height="20"> -->
+<!-- 		    				<img src="images/ajax-loader-1.gif" alt="Cargando..."/> -->
+<!-- 						</p:dialog> -->
+<!-- 					</td> -->
+<!-- 				</tr> -->
+				<tr>
+
+					<td width="1090"><button id="ReporteOpinionForm:envia" name="ReporteOpinionForm:envia" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-button" style="display: none;" type="submit" onclick="window.location.href='/PTSC/RFC/COBReporteOpinionR32dLoginRFC/reporteOpinion32DContribuyente.xhtml'"><span class="ui-button-text ui-c">Consultar</span></button><script id="ReporteOpinionForm:envia_s" type="text/javascript">PrimeFaces.cw('Button','widget_ReporteOpinionForm_envia',{id:'ReporteOpinionForm:envia'});</script><button id="ReporteOpinionForm:botonConsultar" name="ReporteOpinionForm:botonConsultar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-button" style="display: none;" type="submit"><span class="ui-button-text ui-c">Consultar</span></button><script id="ReporteOpinionForm:botonConsultar_s" type="text/javascript">PrimeFaces.cw('CommandButton','widget_ReporteOpinionForm_botonConsultar',{id:'ReporteOpinionForm:botonConsultar'});</script></td>
+				</tr>
+			</table><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="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" autocomplete="off" />
+</form>
+	</div></body>
+
+</html>

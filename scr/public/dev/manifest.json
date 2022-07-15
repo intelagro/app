@@ -1,0 +1,12 @@
+{
+    "name": "IntelAgroDEV",
+    "short_name": "IADEV",
+    "start_url": "https://intelagro.net/dev/login.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [{
+      "src": "https://intelagro.net/dev/img/logos.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }]
+  }

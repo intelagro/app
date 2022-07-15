@@ -1,0 +1,21 @@
+{
+
+"apps": [{
+   "name"  : "intelagro",
+   "script" : "server/main.js",
+   "watch"  : "server/main.js",
+   "watch_options":{
+     "usePolling":true
+   },
+   "env": {
+     "NODE_ENV": "development"
+   },
+   "env_production" : {
+      "NODE_ENV": "production"
+   }
+
+}]
+
+}
+
+

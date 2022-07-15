@@ -1,0 +1,12 @@
+{
+    "name": "IntelAgro",
+    "short_name": "IntelAgro",
+    "start_url": "https://intelagro.net/intelagro/login.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [{
+      "src": "https://intelagro.net/intelagro/img/logos.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }]
+  }

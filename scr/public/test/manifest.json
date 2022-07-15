@@ -1,0 +1,12 @@
+{
+    "name": "IntelAgroTest",
+    "short_name": "IATEST",
+    "start_url": "https://intelagro.net/test/login.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [{
+      "src": "https://intelagro.net/test/img/logos.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }]
+  }

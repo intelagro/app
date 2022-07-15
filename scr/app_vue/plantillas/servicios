@@ -1,0 +1,56 @@
+//////////SERVER INTELAGRO///////
+
+Nombre de usuario:	admin@intelagro.mx
+Servidor entrante:	mail.intelagro.mx
+IMAP Port: 993 POP3 Port: 995
+Servidor de correo:	mail.intelagro.mx
+SMTP Port: 465
+contraseña: $qTzfN!QH!w1
+
+Nombre del dominio: intelagro.mx
+ingreso a cpanel: http://162.214.194.240:2082/
+usuario: wwinte
+contraseña: zHQWj23njTN4ksuqyNoL
+
+
+ip:  162.214.194.240
+http://162.214.194.240:2086/
+usuario root: root
+contraseña: AoOT2NQT4c&B
+usuario: wwinte
+correos: intelagro.mx/webmail
+contraseña: zHQWj23njTN4ksuqyNoL
+
+
+MERJ890801G46
+
+
+/////////////GITHUB EASYEDA AMAZON////////////// 
+usuario: intelagro
+usuario: admin@intelagro.mx
+contraseña: $qTzfN!QH!w1
+tokenserver: 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
+
+/////////// FTP SERVER ///////////////////
+user: app@apppwa.intelagro.mx
+ftp: ftp.intelagro.mx
+contraseña: P5YH}Km,QYsW
+
+///////////////////TARJETAS SIM////////////////////////////////////////
+Usuario: luis.ocaranza@intelagro.mx
+Contraseña: luioca2401
+web: https://sim.nantisystem.com/
+
+
+
+UserName: panchosdeli
+PassWord: P4nchosD3l1
+https://panchosdeli.com/cpanel
+
+
+
+ssh -i "key_server_test.pem" admin@ec2-3-143-143-8.us-east-2.compute.amazonaws.com    ---intelagro
+
+ssh -i "key_server_test.pem" admin@ec2-3-138-203-251.us-east-2.compute.amazonaws.com  ---panchos
+
+git config --global user.email admin@intelagro.mx
